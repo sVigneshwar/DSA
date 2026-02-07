@@ -1,0 +1,8 @@
+All time complexity in order:
+1) O(1) - Fastest time (Map, Set) directly find the value
+2) O(log n) - cuts the way in half (order the list in ascending, check in middle, remove the half which is greater/smaller of the finding value)
+3) O(n log n) - sorting alogorithm
+4) O(n) - humane way (loop through each value and find the value)
+5) O(n²) - Loop inside Loop [Very slow - Not recommended]
+6) O(2ⁿ) - Recursion brute force [Extremely slow - Not recommended]
+7) O(n!) - Permutations [Impossible - Not recommended]
