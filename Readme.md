@@ -19,7 +19,7 @@ https://neetcode.io/practice/practice/blind75
 COMPLETED - [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=blind75)
 COMPLETED - [Best Time to Buy & Sell Stock](https://neetcode.io/problems/buy-and-sell-crypto/question?list=blind75)
 COMPLETED - [Contains Duplicate](https://neetcode.io/problems/duplicate-integer/question?list=blind75)
-- [Product of Array Except Self](https://neetcode.io/problems/products-of-array-discluding-self/question?list=blind75)
+COMPLETED - [Product of Array Except Self](https://neetcode.io/problems/products-of-array-discluding-self/question?list=blind75)
 
 **Focus:** Map, prefix logic, iteration
 
