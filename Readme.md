@@ -28,9 +28,9 @@ COMPLETED - [Product of Array Except Self](https://neetcode.io/problems/products
 ### Day 2 — Arrays (Patterns)
 
 COMPLETED - [Maximum Subarray](https://neetcode.io/problems/maximum-subarray/question?list=blind75)
-- [Maximum Product Subarray](https://neetcode.io/problems/maximum-product-subarray/question?list=blind75)
-- [Find Min in Rotated Sorted Array](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array/question?list=blind75)
-- [Search in Rotated Sorted Array](https://neetcode.io/problems/search-in-rotated-sorted-array/question?list=blind75)
+COMPLETED - [Maximum Product Subarray](https://neetcode.io/problems/maximum-product-subarray/question?list=blind75)
+COMPLETED - [Find Min in Rotated Sorted Array](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array/question?list=blind75)
+- [Search in Rotated Sorted Array](https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=blind75)
 
 **Focus:** Kadane, edge cases
 
