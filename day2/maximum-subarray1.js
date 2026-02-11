@@ -18,7 +18,7 @@ function maxSubArray(nums) {
         currentSum += num
 
         maxSub = Math.max(maxSub, currentSum)
-        console.log("looping number -", num , "current maximum -", currentSum, "maxSub -", maxSub);
+        // console.log("looping number -", num , "current maximum -", currentSum, "maxSub -", maxSub);
     }
 
     console.log(maxSub);
