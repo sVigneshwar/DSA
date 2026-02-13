@@ -30,15 +30,15 @@ COMPLETED - [Product of Array Except Self](https://neetcode.io/problems/products
 COMPLETED - [Maximum Subarray](https://neetcode.io/problems/maximum-subarray/question?list=blind75)
 COMPLETED - [Maximum Product Subarray](https://neetcode.io/problems/maximum-product-subarray/question?list=blind75)
 COMPLETED - [Find Min in Rotated Sorted Array](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array/question?list=blind75)
-- [Search in Rotated Sorted Array](https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=blind75)
-
+COMPLETED - [Search in Rotated Sorted Array](https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=blind75)
+    
 **Focus:** Kadane, edge cases
 
 ---------------------------------------------------------------------------------------------
 
 ### Day 3 — Two Pointers / Sliding Window
 
-- [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75)
+COMPLETED - [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75)
 - [Longest Substring Without Repeating Characters](https://neetcode.io/problems/longest-substring-without-duplicates/question?list=blind75)
 - [Longest Repeating Character Replacement](https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=blind75)
 - [Minimum Window Substring](https://neetcode.io/problems/minimum-window-with-characters/question?list=blind75) (try, OK if partial)
