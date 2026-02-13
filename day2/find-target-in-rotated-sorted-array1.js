@@ -1,45 +1,56 @@
 const nums = [3,4,5,6,1,2]; 
 const target = 3;
 
-const nums2 = [5,6,1,2,3,4];
-const target2 = 6;
+// const nums2 = [5,6,1,2,3,4];
+// const target2 = 6;
+
+// [3,4]
 
 search(nums, target)
 
 function search(nums, target) {
-    let res = -1
+    let result = -1;
 
     let l = 0
     let r = nums.length - 1
 
     while (l <= r){
-        let m = Math.floor((l+r)/2)
-        if(nums[m] === target){
-            res = m
-            console.log(res)
-            return
+        // console.log(nums)
+        console.log(`left = ${l}, leftvalue = ${nums[l]}`)
+        console.log(`right = ${r}, rightvalue = ${nums[r]}`)
+        console.log(`target = ${target}`)
+        let m = Math.floor((l + r)/2)
+        if(nums[m]===target){
+
+            console.log("matching condition")
+            result = m
+            console.log(result)
+            return result
         }
 
-        // nums = 5>3 //nums2 = 1 > 5 
-        if(nums[m] >= nums[l]){
-            if(target > nums[m] && target < nums[l]){
-                l = m + 1
-            }else{
+        // left portion sorted
+        if(nums[l] <= nums[m]){
+            console.log(`target = ${target} is in left portion`)
+            if(target >= nums[l] && target < nums[m]){
                 r = m - 1
+            }else{
+                l = m + 1
             }
         }else{
-            if(target < nums[m] && target > nums[r]){
+            console.log(`target = ${target} is in right portion`)
+            // right portion sorted
+            if(target > nums[m] && target <= nums[r]){
                 l = m + 1
             }else{
                 r = m - 1
             }
         }
 
+        console.log(`----------------------------------------------`)
     }
 
-    console.log(res)
-
-    return res
+    console.log(result)
+    return result
 }
 
 /*
