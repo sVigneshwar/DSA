@@ -39,7 +39,7 @@ COMPLETED - [Search in Rotated Sorted Array](https://neetcode.io/problems/find-t
 ### Day 3 — Two Pointers / Sliding Window
 
 COMPLETED - [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75)
-- [Longest Substring Without Repeating Characters](https://neetcode.io/problems/longest-substring-without-duplicates/question?list=blind75)
+COMPLETED - [Longest Substring Without Repeating Characters](https://neetcode.io/problems/longest-substring-without-duplicates/question?list=blind75)
 - [Longest Repeating Character Replacement](https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=blind75)
 - [Minimum Window Substring](https://neetcode.io/problems/minimum-window-with-characters/question?list=blind75) (try, OK if partial)
 
