@@ -1,289 +1,206 @@
----------------------------------------------------------------------------------------------
+# NeetCode Blind 75
 
-https://neetcode.io/practice/practice/blind75
+> Each completed problem has its own folder: `day{number}/`
+>
+> Progress: **12 / 75** completed
 
----------------------------------------------------------------------------------------------
+---
 
-# ✅ 30-Day DSA Checklist (JS — 1 Topic / Day)
+## Arrays & Hashing (8)
 
-- **Daily time:** 1.5–2.5 hrs
-- **Rule:** Max 4 problems/day
-- **Goal:** Screening-ready, not DSA mastery
+| #  | Problem                          | Difficulty | Status       |
+| -- | -------------------------------- | ---------- | ------------ |
+| 1  | Contains Duplicate               | Easy       | ✅ COMPLETED |
+| 2  | Valid Anagram                    | Easy       | ✅ COMPLETED             |
+| 3  | Two Sum                          | Easy       | ✅ COMPLETED |
+| 4  | Group Anagrams                   | Medium     |              |
+| 5  | Top K Frequent Elements          | Medium     |              |
+| 6  | Encode and Decode Strings        | Medium     |              |
+| 7  | Product of Array Except Self     | Medium     | ✅ COMPLETED |
+| 8  | Longest Consecutive Sequence     | Medium     |              |
 
----------------------------------------------------------------------------------------------
+---
 
-## 🗓️ Week 1 — Arrays + Strings (Highest ROI)
+## Two Pointers (3)
 
-### Day 1 — Arrays (Basics)
+| #  | Problem                      | Difficulty | Status       |
+| -- | ---------------------------- | ---------- | ------------ |
+| 9  | Valid Palindrome             | Easy       |              |
+| 10 | 3Sum                         | Medium     |              |
+| 11 | Container With Most Water    | Medium     | ✅ COMPLETED |
 
-COMPLETED - [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=blind75)
-COMPLETED - [Best Time to Buy & Sell Stock](https://neetcode.io/problems/buy-and-sell-crypto/question?list=blind75)
-COMPLETED - [Contains Duplicate](https://neetcode.io/problems/duplicate-integer/question?list=blind75)
-COMPLETED - [Product of Array Except Self](https://neetcode.io/problems/products-of-array-discluding-self/question?list=blind75)
+---
 
-**Focus:** Map, prefix logic, iteration
+## Sliding Window (4)
 
----------------------------------------------------------------------------------------------
+| #  | Problem                                        | Difficulty | Status       |
+| -- | ---------------------------------------------- | ---------- | ------------ |
+| 12 | Best Time to Buy and Sell Stock                | Easy       | ✅ COMPLETED |
+| 13 | Longest Substring Without Repeating Characters | Medium     | ✅ COMPLETED |
+| 14 | Longest Repeating Character Replacement        | Medium     | ✅ COMPLETED |
+| 15 | Minimum Window Substring                       | Hard       |              |
 
-### Day 2 — Arrays (Patterns)
+---
 
-COMPLETED - [Maximum Subarray](https://neetcode.io/problems/maximum-subarray/question?list=blind75)
-COMPLETED - [Maximum Product Subarray](https://neetcode.io/problems/maximum-product-subarray/question?list=blind75)
-COMPLETED - [Find Min in Rotated Sorted Array](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array/question?list=blind75)
-COMPLETED - [Search in Rotated Sorted Array](https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=blind75)
-    
-**Focus:** Kadane, edge cases
+## Stack (1)
 
----------------------------------------------------------------------------------------------
+| #  | Problem            | Difficulty | Status |
+| -- | ------------------ | ---------- | ------ |
+| 16 | Valid Parentheses  | Easy       |        |
 
-### Day 3 — Two Pointers / Sliding Window
+---
 
-COMPLETED - [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75)
-COMPLETED - [Longest Substring Without Repeating Characters](https://neetcode.io/problems/longest-substring-without-duplicates/question?list=blind75)
-COMPLETED (BUT ONE OF THE WORST PROBLEMS)- [Longest Repeating Character Replacement](https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=blind75)
-- [Minimum Window Substring](https://neetcode.io/problems/minimum-window-with-characters/question?list=blind75) (try, OK if partial)
+## Binary Search (2)
 
-**Focus:** left/right pointer movement
+| #  | Problem                                  | Difficulty | Status       |
+| -- | ---------------------------------------- | ---------- | ------------ |
+| 17 | Find Minimum in Rotated Sorted Array     | Medium     | ✅ COMPLETED |
+| 18 | Search in Rotated Sorted Array           | Medium     | ✅ COMPLETED |
 
----------------------------------------------------------------------------------------------
+---
 
-### Day 4 — Strings
+## Linked List (6)
 
-COMPLETED - [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=blind75)
-- [Valid Palindrome](https://neetcode.io/problems/is-palindrome/question?list=blind75)
-- [Group Anagrams](https://neetcode.io/problems/anagram-groups/question?list=blind75)
-- Palindrome Number
+| #  | Problem                        | Difficulty | Status |
+| -- | ------------------------------ | ---------- | ------ |
+| 19 | Reverse Linked List            | Easy       |        |
+| 20 | Merge Two Sorted Lists         | Easy       |        |
+| 21 | Linked List Cycle              | Easy       |        |
+| 22 | Reorder List                   | Medium     |        |
+| 23 | Remove Nth Node From End       | Medium     |        |
+| 24 | Merge K Sorted Lists           | Hard       |        |
 
-**Focus:** frequency maps, normalization
+---
 
----------------------------------------------------------------------------------------------
+## Trees (11)
 
-### Day 5 — Binary Search
+| #  | Problem                                          | Difficulty | Status |
+| -- | ------------------------------------------------ | ---------- | ------ |
+| 25 | Invert Binary Tree                               | Easy       |        |
+| 26 | Maximum Depth of Binary Tree                     | Easy       |        |
+| 27 | Same Tree                                        | Easy       |        |
+| 28 | Subtree of Another Tree                          | Easy       |        |
+| 29 | Lowest Common Ancestor of BST                    | Medium     |        |
+| 30 | Binary Tree Level Order Traversal                | Medium     |        |
+| 31 | Validate Binary Search Tree                      | Medium     |        |
+| 32 | Kth Smallest Element in a BST                    | Medium     |        |
+| 33 | Construct Binary Tree from Preorder and Inorder  | Medium     |        |
+| 34 | Binary Tree Maximum Path Sum                     | Hard       |        |
+| 35 | Serialize and Deserialize Binary Tree            | Hard       |        |
 
-- [Binary Search](https://neetcode.io/problems/binary-search/question?list=blind75)
-- [Sqrt(x)](https://neetcode.io/problems/sqrtx)
-- [Find Peak Element](https://neetcode.io/problems/find-peak-element)
+---
 
-**Focus:** mid calculation, bounds
+## Heap / Priority Queue (1)
 
----------------------------------------------------------------------------------------------
+| #  | Problem                        | Difficulty | Status |
+| -- | ------------------------------ | ---------- | ------ |
+| 36 | Find Median from Data Stream   | Hard       |        |
 
-### Day 6 — Revision
+---
 
-- Re-solve 3 weak problems
-- Rewrite 1 solution cleanly
-- Speak approach out loud
+## Backtracking (2)
 
----------------------------------------------------------------------------------------------
+| #  | Problem            | Difficulty | Status |
+| -- | ------------------ | ---------- | ------ |
+| 37 | Combination Sum    | Medium     |        |
+| 38 | Word Search        | Medium     |        |
 
-### Day 7 — REST / Light Review
+---
 
+## Tries (3)
 
-## 🗓️ Week 2 — Linked List + Matrix
+| #  | Problem                                      | Difficulty | Status |
+| -- | -------------------------------------------- | ---------- | ------ |
+| 39 | Implement Trie (Prefix Tree)                 | Medium     |        |
+| 40 | Design Add and Search Words Data Structure   | Medium     |        |
+| 41 | Word Search II                               | Hard       |        |
 
----------------------------------------------------------------------------------------------
+---
 
-### Day 8 — Linked List (Basics)
+## Graphs (6)
 
-- [Reverse Linked List](https://neetcode.io/problems/reverse-a-linked-list/question?list=blind75)
-- [Merge Two Sorted Lists](https://neetcode.io/problems/merge-two-sorted-linked-lists/question?list=blind75)
-- [Linked List Cycle](https://neetcode.io/problems/linked-list-cycle-detection/question?list=blind75)
+| #  | Problem                                              | Difficulty | Status |
+| -- | ---------------------------------------------------- | ---------- | ------ |
+| 42 | Number of Islands                                    | Medium     |        |
+| 43 | Clone Graph                                          | Medium     |        |
+| 44 | Pacific Atlantic Water Flow                          | Medium     |        |
+| 45 | Course Schedule                                      | Medium     |        |
+| 46 | Number of Connected Components in Undirected Graph   | Medium     |        |
+| 47 | Graph Valid Tree                                     | Medium     |        |
 
-**Focus:** pointers, dummy nodes
+---
 
----------------------------------------------------------------------------------------------
+## Advanced Graphs (1)
 
-### Day 9 — Linked List (Medium)
+| #  | Problem              | Difficulty | Status |
+| -- | -------------------- | ---------- | ------ |
+| 48 | Alien Dictionary     | Hard       |        |
 
-- [Remove Nth Node From End](https://neetcode.io/problems/remove-node-from-end-of-linked-list/question?list=blind75)
-- [Reorder List](https://neetcode.io/problems/reorder-linked-list/question?list=blind75)
-- [Merge K Sorted Lists](https://neetcode.io/problems/merge-k-sorted-linked-lists/question?list=blind75) (optional)
+---
 
----------------------------------------------------------------------------------------------
+## 1-D Dynamic Programming (10)
 
-### Day 10 — Matrix
+| #  | Problem                              | Difficulty | Status       |
+| -- | ------------------------------------ | ---------- | ------------ |
+| 49 | Climbing Stairs                      | Easy       |              |
+| 50 | House Robber                         | Medium     |              |
+| 51 | House Robber II                      | Medium     |              |
+| 52 | Longest Palindromic Substring        | Medium     |              |
+| 53 | Palindromic Substrings               | Medium     |              |
+| 54 | Decode Ways                          | Medium     |              |
+| 55 | Coin Change                          | Medium     |              |
+| 56 | Maximum Product Subarray             | Medium     | ✅ COMPLETED |
+| 57 | Word Break                           | Medium     |              |
+| 58 | Longest Increasing Subsequence       | Medium     |              |
 
-- [Set Matrix Zeroes](https://neetcode.io/problems/set-matrix-zeroes/question?list=blind75)
-- [Spiral Matrix](https://neetcode.io/problems/spiral-matrix/question?list=blind75)
-- [Rotate Image](https://neetcode.io/problems/rotate-matrix/question?list=blind75)
+---
 
-**Focus:** index math, boundaries
+## 2-D Dynamic Programming (2)
 
----------------------------------------------------------------------------------------------
+| #  | Problem                          | Difficulty | Status |
+| -- | -------------------------------- | ---------- | ------ |
+| 59 | Unique Paths                     | Medium     |        |
+| 60 | Longest Common Subsequence       | Medium     |        |
 
-### Day 11 — Matrix + DFS
+---
 
-- [Word Search](https://neetcode.io/problems/search-for-word/question?list=blind75)
-- [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=blind75)
+## Greedy (2)
 
-**Focus:** visited marking, recursion limits
+| #  | Problem            | Difficulty | Status       |
+| -- | ------------------ | ---------- | ------------ |
+| 61 | Maximum Subarray   | Medium     | ✅ COMPLETED |
+| 62 | Jump Game          | Medium     |              |
 
----------------------------------------------------------------------------------------------
+---
 
-### Day 12 — Intervals
+## Intervals (5)
 
-- [Merge Intervals](https://neetcode.io/problems/merge-intervals/question?list=blind75)
-- [Non-overlapping Intervals](https://neetcode.io/problems/non-overlapping-intervals/question?list=blind75)
-- [Insert Interval](https://neetcode.io/problems/insert-interval)
+| #  | Problem                      | Difficulty | Status |
+| -- | ---------------------------- | ---------- | ------ |
+| 63 | Insert Interval              | Medium     |        |
+| 64 | Merge Intervals              | Medium     |        |
+| 65 | Non-Overlapping Intervals    | Medium     |        |
+| 66 | Meeting Rooms                | Easy       |        |
+| 67 | Meeting Rooms II             | Medium     |        |
 
-**Focus:** sorting + merging logic
+---
 
----------------------------------------------------------------------------------------------
+## Math & Geometry (3)
 
-### Day 13 — Revision
+| #  | Problem            | Difficulty | Status |
+| -- | ------------------ | ---------- | ------ |
+| 68 | Rotate Image       | Medium     |        |
+| 69 | Spiral Matrix      | Medium     |        |
+| 70 | Set Matrix Zeroes  | Medium     |        |
 
-- Re-attempt 2 interval problems
-- 1 matrix problem without looking
+---
 
----------------------------------------------------------------------------------------------
+## Bit Manipulation (5)
 
-### Day 14 — REST
-
-
-## 🗓️ Week 3 — Trees (frontend-safe depth)
-
----------------------------------------------------------------------------------------------
-
-### Day 15 — Tree Basics
-
-- [Maximum Depth of Binary Tree](https://neetcode.io/problems/depth-of-binary-tree/question?list=blind75)
-- [Same Tree](https://neetcode.io/problems/same-binary-tree/question?list=blind75)
-- [Invert Binary Tree](https://neetcode.io/problems/invert-a-binary-tree/question?list=blind75)
-
-**Focus:** DFS recursion
-
----------------------------------------------------------------------------------------------
-
-### Day 16 — Tree Traversals
-
-- [Binary Tree Level Order Traversal](https://neetcode.io/problems/level-order-traversal-of-binary-tree/question?list=blind75)
-- [Binary Tree Right Side View](https://neetcode.io/problems/binary-tree-right-side-view/question?list=blind75)
-- [Diameter of Binary Tree](https://neetcode.io/problems/diameter-of-binary-tree/question?list=blind75)
-
----------------------------------------------------------------------------------------------
-
-### Day 17 — BST
-
-- [Validate Binary Search Tree](https://neetcode.io/problems/valid-binary-search-tree/question?list=blind75)
-- [Kth Smallest Element in BST](https://neetcode.io/problems/kth-smallest-integer-in-bst/question?list=blind75)
-- [Lowest Common Ancestor of BST](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree/question?list=blind75)
-
----------------------------------------------------------------------------------------------
-
-### Day 18 — Tree Construction
-
-- [Construct Tree (Preorder + Inorder)](https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal/question?list=blind75)
-- [Subtree of Another Tree](https://neetcode.io/problems/subtree-of-a-binary-tree/question?list=blind75)
-
----------------------------------------------------------------------------------------------
-
-### Day 19 — Trie
-
-- [Implement Trie](https://neetcode.io/problems/implement-prefix-tree/question?list=blind75)
-- [Add and Search Word](https://neetcode.io/problems/design-word-search-data-structure/question?list=blind75)
-
-**Note:** Useful for JS object modeling
-
----------------------------------------------------------------------------------------------
-
-### Day 20 — Revision
-
-- Re-solve 2 tree problems
-- Explain BFS vs DFS verbally
-
----------------------------------------------------------------------------------------------
-
-### Day 21 — REST
-
-
-## 🗓️ Week 4 — Light DP + Graph (Cap here)
-
----------------------------------------------------------------------------------------------
-
-### Day 22 — DP Basics
-
-- [Climbing Stairs](https://neetcode.io/problems/climbing-stairs/question?list=blind75)
-- [House Robber](https://neetcode.io/problems/house-robber/question?list=blind75)
-- [Decode Ways](https://neetcode.io/problems/decode-ways/question?list=blind75)
-
-**Focus:** state + transition
-
----------------------------------------------------------------------------------------------
-
-### Day 23 — DP Medium
-
-- [Coin Change](https://neetcode.io/problems/coin-change/question?list=blind75)
-- [Unique Paths](https://neetcode.io/problems/unique-paths/question?list=blind75)
-
----------------------------------------------------------------------------------------------
-
-### Day 24 — Graph (Must-know only)
-
-- [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=blind75) (again, BFS version)
-- [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=blind75)
-
-**Focus:** adjacency list, visited set
-
----------------------------------------------------------------------------------------------
-
-### Day 25 — Heap
-
-- [Top K Frequent Elements](https://neetcode.io/problems/top-k-elements-in-list/question?list=blind75)
-- [Find Median from Data Stream](https://neetcode.io/problems/find-median-in-a-data-stream/question?list=blind75) (read logic)
-
----------------------------------------------------------------------------------------------
-
-### Day 26 — Stack
-
-- [Valid Parentheses](https://neetcode.io/problems/validate-parentheses/question?list=blind75)
-- [Min Stack](https://neetcode.io/problems/minimum-stack/question?list=blind75)
-- [Daily Temperatures](https://neetcode.io/problems/daily-temperatures/question?list=blind75)
-
----------------------------------------------------------------------------------------------
-
-### Day 27 — Final Revision
-
-- 5 mixed problems
-- Time yourself (30–40 min/problem)
-
----------------------------------------------------------------------------------------------
-
-### Day 28 — Mock Interview Day
-
-- Pick 2 random problems
-- Solve + explain like interview
-
----------------------------------------------------------------------------------------------
-
-### Day 29 — Weak Areas
-
-- Fix ONLY weak topics
-- No new problems
-
----------------------------------------------------------------------------------------------
-
-### Day 30 — STOP DSA
-
-
-- ✅ You are screening-ready
-- ❌ Do NOT continue heavy DSA
-
----------------------------------------------------------------------------------------------
-
-## 🚨 Important Rules (do not ignore)
-
-- Use JS `Map` / `Set`, not objects by default
-- Always state time & space complexity
-- Write readable code, not clever code
-- If stuck > 20 min → read approach, then code
-
-## 🎯 What this achieves
-
-- Enough DSA to pass frontend screens
-- No burnout
-- Leaves time for React interviews (your main goal)
-
-## Next (recommended)
-
-- React Interview Checklist (abroad-focused)
-- Or [BigFrontend.dev](https://bigfrontend.dev/) task mapping to interviews
+| #  | Problem                | Difficulty | Status |
+| -- | ---------------------- | ---------- | ------ |
+| 71 | Number of 1 Bits      | Easy       |        |
+| 72 | Counting Bits          | Easy       |        |
+| 73 | Reverse Bits           | Easy       |        |
+| 74 | Missing Number         | Easy       |        |
+| 75 | Sum of Two Integers    | Medium     |        |
