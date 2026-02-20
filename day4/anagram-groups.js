@@ -1,25 +1,27 @@
+const strs = ["act","pots","tops","cat","stop","hat"]
+
+groupAnagrams(strs) // Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
 
 
-const nums = [3,5,4,6, 10]
-const target = 7
+// if(strs.length === 1){
+    //     res.push(strs[0])
+    //     return res
+    // }
 
-twoSum(nums, target)
+function groupAnagrams(strs) {
+    let res = {}
+    
+    for(let s of strs){
+        const sortedS = s.split("").sort().join("");
 
-function twoSum(nums, target) {
-    let result;
-    for(let i = 0; i< nums.length; i++){
-        if(true){
-            let pendingValue = target - nums[i];
-            let pendingIndex;        
-            if(nums.indexOf(pendingValue, i + 1) !== -1){
-                pendingIndex = nums.indexOf(pendingValue, i + 1)
-                // console.log("is", pendingValue, "available in ", nums, ":", pendingValue, "is available at", nums.indexOf(pendingValue));
-                if(!result){
-                    result = [i, pendingIndex]
-                }
-            }
-        }        
+        if(!res[sortedS]){
+            res[sortedS] = []
+        }
+
+        res[sortedS].push(s)
+
+        console.log(res)
     }
-    // console.log(result);
-    return result
+    console.log(Object.values(res))
+    return Object.values(res)
 }
