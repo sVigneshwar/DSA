@@ -40,7 +40,7 @@ COMPLETED - [Search in Rotated Sorted Array](https://neetcode.io/problems/find-t
 
 COMPLETED - [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75)
 COMPLETED - [Longest Substring Without Repeating Characters](https://neetcode.io/problems/longest-substring-without-duplicates/question?list=blind75)
-- [Longest Repeating Character Replacement](https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=blind75)
+COMPLETED (BUT ONE OF THE WORST PROBLEMS)- [Longest Repeating Character Replacement](https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=blind75)
 - [Minimum Window Substring](https://neetcode.io/problems/minimum-window-with-characters/question?list=blind75) (try, OK if partial)
 
 **Focus:** left/right pointer movement
@@ -49,7 +49,7 @@ COMPLETED - [Longest Substring Without Repeating Characters](https://neetcode.io
 
 ### Day 4 — Strings
 
-- [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=blind75)
+COMPLETED - [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=blind75)
 - [Valid Palindrome](https://neetcode.io/problems/is-palindrome/question?list=blind75)
 - [Group Anagrams](https://neetcode.io/problems/anagram-groups/question?list=blind75)
 - Palindrome Number
