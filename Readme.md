@@ -10,13 +10,13 @@
 
 | #  | Problem                          | Difficulty | Status       |
 | -- | -------------------------------- | ---------- | ------------ |
-| 1  | Contains Duplicate               | Easy       | ✅ COMPLETED |
-| 2  | Valid Anagram                    | Easy       | ✅ COMPLETED             |
-| 3  | Two Sum                          | Easy       | ✅ COMPLETED |
-| 4  | Group Anagrams                   | Medium     |              |
+| 1  | Contains Duplicate               | Easy       | ✅ COMPLETED
+| 2  | Valid Anagram                    | Easy       | ✅ COMPLETED
+| 3  | Two Sum                          | Easy       | ✅ COMPLETED
+| 4  | Group Anagrams                   | Medium     | ✅ COMPLETED
 | 5  | Top K Frequent Elements          | Medium     |              |
 | 6  | Encode and Decode Strings        | Medium     |              |
-| 7  | Product of Array Except Self     | Medium     | ✅ COMPLETED |
+| 7  | Product of Array Except Self     | Medium     | ✅ COMPLETED
 | 8  | Longest Consecutive Sequence     | Medium     |              |
 
 ---
@@ -27,7 +27,7 @@
 | -- | ---------------------------- | ---------- | ------------ |
 | 9  | Valid Palindrome             | Easy       |              |
 | 10 | 3Sum                         | Medium     |              |
-| 11 | Container With Most Water    | Medium     | ✅ COMPLETED |
+| 11 | Container With Most Water    | Medium     | ✅ COMPLETED
 
 ---
 
@@ -35,9 +35,9 @@
 
 | #  | Problem                                        | Difficulty | Status       |
 | -- | ---------------------------------------------- | ---------- | ------------ |
-| 12 | Best Time to Buy and Sell Stock                | Easy       | ✅ COMPLETED |
-| 13 | Longest Substring Without Repeating Characters | Medium     | ✅ COMPLETED |
-| 14 | Longest Repeating Character Replacement        | Medium     | ✅ COMPLETED |
+| 12 | Best Time to Buy and Sell Stock                | Easy       | ✅ COMPLETED
+| 13 | Longest Substring Without Repeating Characters | Medium     | ✅ COMPLETED
+| 14 | Longest Repeating Character Replacement        | Medium     | ✅ COMPLETED
 | 15 | Minimum Window Substring                       | Hard       |              |
 
 ---
@@ -54,8 +54,8 @@
 
 | #  | Problem                                  | Difficulty | Status       |
 | -- | ---------------------------------------- | ---------- | ------------ |
-| 17 | Find Minimum in Rotated Sorted Array     | Medium     | ✅ COMPLETED |
-| 18 | Search in Rotated Sorted Array           | Medium     | ✅ COMPLETED |
+| 17 | Find Minimum in Rotated Sorted Array     | Medium     | ✅ COMPLETED
+| 18 | Search in Rotated Sorted Array           | Medium     | ✅ COMPLETED
 
 ---
 
@@ -149,7 +149,7 @@
 | 53 | Palindromic Substrings               | Medium     |              |
 | 54 | Decode Ways                          | Medium     |              |
 | 55 | Coin Change                          | Medium     |              |
-| 56 | Maximum Product Subarray             | Medium     | ✅ COMPLETED |
+| 56 | Maximum Product Subarray             | Medium     | ✅ COMPLETED
 | 57 | Word Break                           | Medium     |              |
 | 58 | Longest Increasing Subsequence       | Medium     |              |
 
@@ -168,7 +168,7 @@
 
 | #  | Problem            | Difficulty | Status       |
 | -- | ------------------ | ---------- | ------------ |
-| 61 | Maximum Subarray   | Medium     | ✅ COMPLETED |
+| 61 | Maximum Subarray   | Medium     | ✅ COMPLETED
 | 62 | Jump Game          | Medium     |              |
 
 ---
