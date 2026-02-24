@@ -1,16 +1,7 @@
-const s = "Was it a car or a cat I saw?"
+const nums = [-1,0,1,2,-1,-4]
 
-isPalindrome(s) // true
+Output: [[-1,-1,2],[-1,0,1]]
 
-function isPalindrome(s) {
+threeSum(nums)
 
-    let original = s.toLowerCase().replace(/ /g,'').replace(/[^a-zA-Z0-9]/g, '')
-    let reversed = s.split("").reverse().join("").toLowerCase().replace(/ /g,'').replace(/[^a-zA-Z0-9]/g, '')
-
-    console.log(original);
-    console.log(reversed);
-    console.log(original == reversed);
-
-    return original == reversed
-    
-}
+function threeSum(nums) {}

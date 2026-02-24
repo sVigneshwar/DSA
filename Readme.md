@@ -17,7 +17,7 @@
 | 5  | Top K Frequent Elements          | Medium     | ✅ COMPLETED
 | 6  | Encode and Decode Strings        | Medium     | ✅ COMPLETED
 | 7  | Product of Array Except Self     | Medium     | ✅ COMPLETED
-| 8  | Longest Consecutive Sequence     | Medium     | 
+| 8  | Longest Consecutive Sequence     | Medium     | ✅ COMPLETED
 
 ---
 
@@ -25,8 +25,8 @@
 
 | #  | Problem                      | Difficulty | Status       |
 | -- | ---------------------------- | ---------- | ------------ |
-| 9  | Valid Palindrome             | Easy       |              |
-| 10 | 3Sum                         | Medium     |              |
+| 9  | Valid Palindrome             | Easy       | ✅ COMPLETED
+| 10 | 3Sum                         | Medium     | 
 | 11 | Container With Most Water    | Medium     | ✅ COMPLETED
 
 ---
