@@ -14,10 +14,10 @@
 | 2  | Valid Anagram                    | Easy       | ✅ COMPLETED
 | 3  | Two Sum                          | Easy       | ✅ COMPLETED
 | 4  | Group Anagrams                   | Medium     | ✅ COMPLETED
-| 5  | Top K Frequent Elements          | Medium     |              |
-| 6  | Encode and Decode Strings        | Medium     |              |
+| 5  | Top K Frequent Elements          | Medium     | ✅ COMPLETED
+| 6  | Encode and Decode Strings        | Medium     | ✅ COMPLETED
 | 7  | Product of Array Except Self     | Medium     | ✅ COMPLETED
-| 8  | Longest Consecutive Sequence     | Medium     |              |
+| 8  | Longest Consecutive Sequence     | Medium     | 
 
 ---
 
