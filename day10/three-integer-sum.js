@@ -1,16 +1,38 @@
-const s = "Was it a car or a cat I saw?"
+// const nums = [0,0,0]
 
-isPalindrome(s) // true
+const nums = [0,1,1]
 
-function isPalindrome(s) {
+// Output: [[-1,-1,2],[-1,0,1]]
 
-    let original = s.toLowerCase().replace(/ /g,'').replace(/[^a-zA-Z0-9]/g, '')
-    let reversed = s.split("").reverse().join("").toLowerCase().replace(/ /g,'').replace(/[^a-zA-Z0-9]/g, '')
+threeSum(nums)
 
-    console.log(original);
-    console.log(reversed);
-    console.log(original == reversed);
+function threeSum(nums) {
+    let res = []
+    if(nums.length === 3){
+        let total = 0;
+        nums.map(val => total+=val)
+        if(total === 0){
+            res = [[...nums]]
+            console.log(res);
+            return res
+        }else{
+            return res
+        }
+    }else{
+        for(let i = 0; i< nums.length; i++){
+            for(let j = i+1; j< nums.length; j++){
+                for(let k = j+1; k< nums.length; k++){
 
-    return original == reversed
-    
+                    if(nums[i]+nums[j]+nums[k] === 0){
+                        res.push([nums[i],nums[j],nums[k]].sort((a, b) => a - b))
+                    }
+                }
+            }
+        }
+        const uniquearray = Array.from(new Set(res.map(JSON.stringify)), JSON.parse)
+
+        console.log(uniquearray);
+        
+        return uniquearray
+    }
 }
