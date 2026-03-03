@@ -4,13 +4,26 @@ isPalindrome(s) // true
 
 function isPalindrome(s) {
 
-    let original = s.toLowerCase().replace(/ /g,'').replace(/[^a-zA-Z0-9]/g, '')
-    let reversed = s.split("").reverse().join("").toLowerCase().replace(/ /g,'').replace(/[^a-zA-Z0-9]/g, '')
+   let left = 0
+   let right = s.length - 1
 
-    console.log(original);
-    console.log(reversed);
-    console.log(original == reversed);
+   while(left < right){
+    if(!this.isAlphanumeric(s[left])){
+        left++
+    }
 
-    return original == reversed
+    if(!this.isAlphanumeric(s[right])){
+        right--
+    }
+
+    if(s[left].toLowerCase() !== s[right].toLowerCase()){
+        return false
+    }
+
+    left++
+    right--
+   }
+
+   return true
     
 }

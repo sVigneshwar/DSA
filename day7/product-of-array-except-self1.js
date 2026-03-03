@@ -1,4 +1,4 @@
-const nums = [1,2,4,6]
+const nums = [0,2,4,6]
 
 productExceptSelf(nums) // [48,24,12,8]
 
