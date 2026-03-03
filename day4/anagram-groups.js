@@ -20,8 +20,9 @@ function groupAnagrams(strs) {
 
         res[sortedS].push(s)
 
-        console.log(res)
+        // console.log(res)
     }
+    console.log(res)
     console.log(Object.values(res))
     return Object.values(res)
 }

@@ -26,7 +26,7 @@
 | #  | Problem                      | Difficulty | Status       |
 | -- | ---------------------------- | ---------- | ------------ |
 | 9  | Valid Palindrome             | Easy       | ✅ COMPLETED
-| 10 | 3Sum                         | Medium     | 
+| 10 | 3Sum                         | Medium     | ✅ COMPLETED
 | 11 | Container With Most Water    | Medium     | ✅ COMPLETED
 
 ---
@@ -46,7 +46,7 @@
 
 | #  | Problem            | Difficulty | Status |
 | -- | ------------------ | ---------- | ------ |
-| 16 | Valid Parentheses  | Easy       |        |
+| 16 | Valid Parentheses  | Easy       | ✅ COMPLETED
 
 ---
 
