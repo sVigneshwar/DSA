@@ -15,3 +15,4 @@ function maxProfit(prices) {
 
 maxProfit(prices)
 // Output: 6
+

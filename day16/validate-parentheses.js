@@ -4,27 +4,22 @@ isValid(s)
 /// check if close matches the recent open, else return false
 /// if the current is open keep pushing into stack, think of like arranging plates
 function isValid(s) {
-    
-    const stack = []
-    const closingBracket = {
-        "}": "{",
-        "]": "[",
-        ")": "("
-    }
+  const stack = []
+  const list = {
+    "]": "[",
+    "}": "{",
+    ")": "("
+  }
 
-
-    for(let bracket of s){
-        
-        if(closingBracket[bracket]){
-            if(stack.length > 0 && stack[stack.length - 1] === closingBracket[bracket]){
-                stack.pop()
-            }else{
-                return false
-            }
+  for(let bracket of s){
+    if(bracket[list]){
+        if(stack.length > 0 && stack[stack.length - 1] === bracket[list]){
+            stack.pop()
         }else{
-            stack.push(bracket)
+            return false
         }
-    }  
-
-    return stack.length === 0
+    }else{
+        stack.push(bracket)
+    }
+  }
 }

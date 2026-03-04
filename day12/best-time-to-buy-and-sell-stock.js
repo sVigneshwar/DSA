@@ -2,31 +2,30 @@ const prices = [10,1,5, 3, 4 ,6,7,1];
 
 function maxProfit(prices) {
     
-    let left = 0;
-    let right = 1;
-    let maximumProfit = 0;
+    let left = 0
+    let right = 1
+
+    let max = 0
 
     while(right < prices.length){
 
-        console.log(`checking index ${left} and ${right}, checking values are ${prices[left]} and ${prices[right]} of array [${prices}]`)
-
         if(prices[left] < prices[right]){
-
             let profit = prices[right] - prices[left]
 
-            maximumProfit = Math.max(profit, maximumProfit)
-
+            max = Math.max(max, profit)
+            
         }else{
             left = right
         }
 
-        right++
 
+
+        right++;
     }
 
-    console.log(maximumProfit);
+    console.log(max);
     
-    return maximumProfit;
+    return max
     
 }
 
